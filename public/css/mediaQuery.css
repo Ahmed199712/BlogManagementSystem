@@ -1,0 +1,133 @@
+/* Screens For Mobiles */
+@media (max-width:768px) {
+    .landing .image
+    {
+        display: none;
+    }
+
+    .landing .allText 
+    {
+        color: #fff;
+        text-align: center;
+    }
+
+    .landing .allText h3
+    {
+        font-size: 30px;
+
+    }
+
+    .landing .allText span
+    {
+        font-size: 40px;
+    }
+    
+    .landing .allText p
+    {
+        margin: 20px 0;
+    }
+
+    .landing .allText button
+    {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .navbar-nav
+    {
+        text-align: center !important;
+    }
+
+    .contact-box
+    {
+        width: 350px !important;
+        min-width: 350px !important;
+    }
+
+    .allPosts .post-box .image
+    {
+        width: 100%;
+        height: 320px;
+    }
+
+    .postDetails .special-heading
+    {
+        width: 300px !important;
+    }
+    
+}
+
+/* Small Screens For Tables */
+@media (min-width:768px) and (max-width:991px){
+    .landing .allText 
+    {
+        color: #fff;
+    }
+
+    .landing .allText h3
+    {
+        font-size: 30px;
+
+    }
+
+    .landing .allText span
+    {
+        font-size: 40px;
+    }
+
+    .landing .allText p
+    {
+        margin: 20px 0;
+    }
+
+    .landing .allText button
+    {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .navbar-nav
+    {
+        text-align: center !important;
+    }
+
+    .allPosts .post-box .image
+    {
+        width: 100%;
+        height: 450px;
+    }
+    
+    .postDetails .special-heading
+    {
+        width: 600px !important;
+    }
+    
+}
+
+/* Meduim Screens */
+@media (min-width:992px) and (max-width:1199px) {
+    .allPage.about .image img
+    {
+        width: 100% !important;
+        
+    }
+
+    .allPosts .post-box .image
+    {
+        width: 100%;
+        height: 300px;
+    }
+
+    .postDetails .special-heading
+    {
+        width: 800px !important;
+    }
+}
+
+/* Large Screen */
+@media (min-width: 1200px) {
+    .postDetails .special-heading
+    {
+        width: 800px !important;
+    }
+}
